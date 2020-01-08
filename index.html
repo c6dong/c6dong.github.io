@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My first page</title>
+	<link rel="stylesheet" href="css/externalStyleSheet.css">
+    <script src="https://kit.fontawesome.com/aa0b3abbb4.js" crossorigin="anonymous"></script>
+  </head>
+  <script>
+	var nm = prompt("What is your name?");
+	document.write("<h1>"+nm+"</h1>");
+	console.log("world"); 
+  </script>
+  
+  <body>
+	<nav class="sidebar">
+		<a href="http://www.youtube.com">
+			<i class="fab fa-youtube fa-2x" aria-label="Youtube"></i>
+		</a>
+		<a href="https://bcourses.berkeley.edu">
+			<i class="fas fa-school fa-2x" aria-label="bcourse"></i>
+		</a>
+		<a href="https://sso.laioffer.com/app/home">
+			<i class="fas fa-laptop-code fa-2x" aria-label="LMS"></i>
+		</a>
+	</nav>
+	<header>
+	<h1>Main Page</h1>
+		<!-- <nav> -->
+			<!-- <a href="http://www.youtube.com"> -->
+				<!-- <i class="fab fa-youtube fa-5x" aria-label="Youtube"></i> -->
+			<!-- </a> -->
+			<!-- <a href="https://bcourses.berkeley.edu"> -->
+				<!-- <i class="fas fa-school fa-5x" aria-label="bcourse"></i> -->
+			<!-- </a> -->
+			<!-- <a href="https://sso.laioffer.com/app/home"> -->
+				<!-- <i class="fas fa-laptop-code fa-5x" aria-label="LMS"></i> -->
+			<!-- </a> -->
+		<!-- </nav> -->
+	</header>
+    <section class="half">
+		<h2> Links</h2>
+		<ul>
+			<li><a href="https://www.coursera.org">
+				<button>coursera</button></a></li>
+		    <li>Pizza</li>
+		    <li>Crab</li>
+			<li>Chocolate Cake</li>
+	    </ul>
+	</section>
+
+    <section class="half">
+		<h2>Video</h2>    
+		<video src="" width = "100%" controls> 
+		video
+		</video>		
+		<span><meter min="0" max="100" value="40">50%</meter></span>
+	</section>
+	
+	<section class="whole">
+	    <h2>More</h2>
+	    <details close><summary>Nothing inside</summary>
+		<p> blablablablablabalblablbalbalbalbalba </details>
+	</section>
+	<hr>
+	<div>
+		<iframe width="100%" height="120%" src="https://www.youtube.com/embed/n9ncgbVmKN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+		</iframe>
+	</div>
+	
+    <table class="cal" width="100%">
+		<caption>Jan 2020</caption>
+		<thead>
+			<tr>
+				<th>Sun</td>
+				<th>Mon</td>
+				<th>Tue</td>
+				<th>Wed</td>
+				<th>Thu</td>
+				<th>Fri</td>
+				<th>Sat</td>
+			</tr>
+		</thead>
+        <td rowspan="2">One</td><td>Two
+		</td>
+		<tr>
+        <td>three</td>
+		</tr>
+    </table>
+	
+	
+	
+	
+	<img src="images/set.jpg" alt="sunset">
+    <footer>
+        <p>Think of a more interesting footer</p>
+    </footer>
+  </body>
+  </html> 
