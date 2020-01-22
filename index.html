@@ -1,99 +1,358 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>My first page</title>
-	<link rel="stylesheet" href="css/externalStyleSheet.css">
-    <script src="https://kit.fontawesome.com/aa0b3abbb4.js" crossorigin="anonymous"></script>
-  </head>
-  <script>
-	var nm = prompt("What is your name?");
-	document.write("<h1>"+nm+"</h1>");
-	console.log("world"); 
-  </script>
-  
-  <body>
-	<nav class="sidebar">
-		<a href="http://www.youtube.com">
-			<i class="fab fa-youtube fa-2x" aria-label="Youtube"></i>
-		</a>
-		<a href="https://bcourses.berkeley.edu">
-			<i class="fas fa-school fa-2x" aria-label="bcourse"></i>
-		</a>
-		<a href="https://sso.laioffer.com/app/home">
-			<i class="fas fa-laptop-code fa-2x" aria-label="LMS"></i>
-		</a>
-	</nav>
-	<header>
-	<h1>Main Page</h1>
-		<!-- <nav> -->
-			<!-- <a href="http://www.youtube.com"> -->
-				<!-- <i class="fab fa-youtube fa-5x" aria-label="Youtube"></i> -->
-			<!-- </a> -->
-			<!-- <a href="https://bcourses.berkeley.edu"> -->
-				<!-- <i class="fas fa-school fa-5x" aria-label="bcourse"></i> -->
-			<!-- </a> -->
-			<!-- <a href="https://sso.laioffer.com/app/home"> -->
-				<!-- <i class="fas fa-laptop-code fa-5x" aria-label="LMS"></i> -->
-			<!-- </a> -->
-		<!-- </nav> -->
-	</header>
-    <section class="half">
-		<h2> Links</h2>
-		<ul>
-			<li><a href="https://www.coursera.org">
-				<button>coursera</button></a></li>
-		    <li>Pizza</li>
-		    <li>Crab</li>
-			<li>Chocolate Cake</li>
-	    </ul>
-	</section>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chikeng Dong's Portfolio</title>
+	<script src="https://kit.fontawesome.com/aa0b3abbb4.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="js/"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/css1.css">
 
-    <section class="half">
-		<h2>Video</h2>    
-		<video src="" width = "100%" controls> 
-		video
-		</video>		
-		<span><meter min="0" max="100" value="40">50%</meter></span>
-	</section>
-	
-	<section class="whole">
-	    <h2>More</h2>
-	    <details close><summary>Nothing inside</summary>
-		<p> blablablablablabalblablbalbalbalbalba </details>
-	</section>
-	<hr>
-	<div>
-		<iframe width="100%" height="120%" src="https://www.youtube.com/embed/n9ncgbVmKN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-		</iframe>
-	</div>
-	
-    <table class="cal" width="100%">
-		<caption>Jan 2020</caption>
-		<thead>
-			<tr>
-				<th>Sun</td>
-				<th>Mon</td>
-				<th>Tue</td>
-				<th>Wed</td>
-				<th>Thu</td>
-				<th>Fri</td>
-				<th>Sat</td>
-			</tr>
-		</thead>
-        <td rowspan="2">One</td><td>Two
-		</td>
-		<tr>
-        <td>three</td>
-		</tr>
-    </table>
-	
-	
-	
-	
-	<img src="images/set.jpg" alt="sunset">
-    <footer>
-        <p>Think of a more interesting footer</p>
-    </footer>
-  </body>
-  </html> 
+</head>
+<body>
+	<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg bg-secondary text-uppercase navbar-fixed-top" id="mainNav">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar" color="white"></span>
+						<span class="icon-bar"color="white"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#pageTop">Chikeng Dong</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#about">About</a></li>
+						<li><a href="#">Experience</a></li>
+						<li><a href="#">Education</a></li>
+						<li><a href="#">Skills</a></li>
+						<li><a href="#">More</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+	<section>
+		<div class="w-100 topOne" id="pageTop">
+			<h1 class="text-uppercase">Chikeng<span class="text-primary"> Dong</span></h1>
+			<div class="subheading mb-5">A smart boy majored in Mechanical Engineering
+				<a href="mailto:name@email.com">c6dong@berkeley.edu</a>
+			</div>
+			<div class="social-icons">
+				<a href="https://www.linkedin.com/in/chikengdong">
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+				<a href="https://github.com/c6dong">
+					<i class="fab fa-github"></i>
+				</a>
+			</div>
+		</div>
+
+
+		<!-- about -->
+		<h2 id="about" class="page-section-heading text-center text-uppercase text-secondary mb-0">About</h2>
+		<div class="row">
+			<div class="col-lg-4 ml-auto">
+				<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+			</div>
+			<div class="col-lg-4 mr-auto">
+				<p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+			</div>
+		</div>
+
+		<!-- Experience -->
+		<section class="experience-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Experience</h2>
+
+				<!-- Experience 1 -->
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Medical Device Design Researcher</h3>
+						<div class="resume-date text-md-right">
+	            <span class="text-primary">Sep. 2018 to Jun. 2019</span>
+	          </div>
+            <div class="subheading mb-3">Mechanical Engineering Department, University of California, San Diego, CA</div>
+						<ul class="fa-ul mb-0">
+		          <li>
+								<i class="fa-li fa fa-check"></i>
+								Built a subcutaneously implanted wireless nerve lengthening device which can reconnect a damaged nerve that is taken apart by 2cm with the sponsor from UCSD medical school
+							</li>
+							<li>
+								<i class="fa-li fa fa-check"></i>
+								Designed and 3D printed the 100mm*32mm*14mm control system enclosure with biocompatible material to hold and protect TinyDuino boards
+							</li>
+							<li>
+								<i class="fa-li fa fa-check"></i>
+								Achieved mobile app control of nerve lengthening system within range of two meters by coding Bluetooth functions on Nordic Shield and testing signal transmission performance on a lab rabbit
+							</li>
+							<li>
+								<i class="fa-li fa fa-check"></i>
+								Evaluated and optimized the power consumption of the nerve lengthening system with 500mAh battery compacity by improving Arduino codes with the sleep mode and working-cycles to achieve two-weeks working life
+							</li>
+          </div>
+        </div>
+
+				<!-- Experience 2 -->
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0">Research Assistant</h3>
+						<div class="resume-date text-md-right">
+							<span class="text-primary">Jun. 2018 to Sep. 2018</span>
+						</div>
+						<div class="subheading mb-3">Intelligent Equipment and Robotics Laboratory, Tsinghua University, China</div>
+						<ul class="fa-ul mb-0">
+							<li>
+								<i class="fa-li fa fa-check"></i>
+								Collaborated with three PhD students to design and optimize an intelligent mobile robot, assembled with a UR5 robotic arm and an Intel RealSense Camera, to automatically identify and grab multi-type products in grocery stores
+							</li>
+							<li>
+								<i class="fa-li fa fa-check"></i>
+								Trained multiple neural network machine learning detection models with self-defined labelled pictures using Tensorflow framework, which aimed to be used on Nvidia Jetson TX2 module
+							</li>
+							<li>
+								<i class="fa-li fa fa-check"></i>
+								Won the third prize out of 300 teams in 2018 JD Robotics Challenge
+							</li>
+					</div>
+				</div>
+
+				<!-- Experience 3 -->
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0">Research Assistant</h3>
+						<div class="resume-date text-md-right">
+							<span class="text-primary">Apr. 2018 to Oct. 2018</span>
+						</div>
+						<div class="subheading mb-3">High Energy Density Physics Laboratory (HEDP), University of California, San Diego, CA</div>
+						<ul class="fa-ul mb-0">
+							<li>
+								<i class="fa-li fa fa-check"></i>
+								Examined basics and characteristics of plasma physics with application of Maxwell equations to better understand the results of high-speed particles collision
+							</li>
+							<li>
+								<i class="fa-li fa fa-check"></i>
+								Compiled and ran EPOCH laser-plasma code for 1D and 2D simulations with the same inputs and initial conditions as lab experiments and using the plots to compare and introduce hypothesis for unusual events
+							</li>
+					</div>
+
+				</div>
+
+				<!-- Experience 4 -->
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0">Hardware & Design Engineer</h3>
+						<div class="resume-date text-md-right">
+							<span class="text-primary">Apr. 2017 to Jun. 2017</span>
+						</div>
+						<div class="subheading mb-3">Mechanical Engineering Department, University of California, San Diego, CA</div>
+						<ul class="fa-ul mb-0">
+							<li>
+								<i class="fa-li fa fa-check"></i>
+								Collaborated with a team of four students on designing and building a remotely controlled robot with AutoCAD and Solidworks to transport billiards to the designated positions
+							</li>
+							<li>
+								<i class="fa-li fa fa-check"></i>
+								Conducted finite element analysis to test robot structure stability under stress; Fabricated parts using laser cutter, machine shop and 3D printer; Assembled and tested the robot
+							</li>
+					</div>
+
+				</div>
+
+				<!-- Experience 5 -->
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0">Hardware & Control Engineer</h3>
+						<div class="resume-date text-md-right">
+							<span class="text-primary">Sept. 2019 to Present</span>
+						</div>
+						<div class="subheading mb-3">Blue Goji, Austin, TX</div>
+						<ul class="fa-ul mb-0">
+							<li>
+								<i class="fa-li fa fa-check"></i>
+								Design and build a stationary bike with VR experience and active tethering system to achieve motion sensing and gamification according to the content of games
+							</li>
+					</div>
+
+				</div>
+
+				<!-- Experience 6 -->
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0">Technician Assistant</h3>
+						<div class="resume-date text-md-right">
+							<span class="text-primary">May. 2018 to Jun. 2018</span>
+						</div>
+						<div class="subheading mb-3">Taikoo (Xiamen) Aircraft Engineering Co. Ltd, Xiamen, China</div>
+						<ul class="fa-ul mb-0">
+							<li>
+								<i class="fa-li fa fa-check"></i>
+								Investigated Design for Manufacturability in real working procedure by assisting a senior technician on a passengerto-freighter project, which requires manufacturing of aircraft components
+							</li>
+					</div>
+
+				</div>
+
+			</div>
+
+    </section>
+
+		<hr class="m-0">
+
+		<!-- Education -->
+		<section class="education-section p-3 p-lg-5 d-flex align-items-center" id="education">
+			<div class="w-100">
+				<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Education</h2>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0">University of California, Berkeley</h3>
+						<div class="resume-date text-md-right">
+							<span class="text-primary">Expected May 2020</span>
+						</div>
+						<div class="subheading mb-3">Master of Engineering</div>
+						<div>Mechanical Engineering - Control of Robotic and Autonomous Systems</div>
+						<p>GPA: 3.5</p>
+					</div>
+				</div>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0">University of California, San Diego</h3>
+						<div class="resume-date text-md-right">
+							<span class="text-primary">Sep. 2015 to Jun. 2019</span>
+						</div>
+						<div class="subheading mb-3">Bachelor of Science</div>
+						<div>Mechanical Engineering</div>
+						<p>GPA: 3.8</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<hr class="m-0">
+
+		<!-- Skills -->
+    <section class="skills-section p-3 p-lg-5 d-flex justify-content-center skillList" id="skills">
+      <div class="w-100">
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
+
+			<div class="leftSide">
+				<div class="subheading mb-3"><h3>Programming Skills</h3></div>
+        <ul class="fa-ul mb-0">
+					<li>
+						<i class="fa-li fa fa-star"></i>
+          	Java</li>
+          <li>
+						<i class="fa-li fa fa-star"></i>
+          	html5</li>
+          <li>
+						<i class="fa-li fa fa-star"></i>
+          	css3</li>
+          <li>
+						<i class="fa-li fa fa-star"></i>
+            JavaScript</li>
+          <li>
+						<i class="fa-li fa fa-star"></i>
+            react</li>
+          <li>
+						<i class="fa-li fa fa-star"></i>
+            node.js</li>
+					<li>
+						<i class="fa-li fa fa-star"></i>
+	          Python</li>
+        </ul>
+			</div>
+
+				<div class="rightSide">
+				<div class="subheading mb-3"><h3>Mechanical Engineering</h3></div>
+        <ul class="fa-ul mb-0">
+          <li>
+						<i class="fa-li fa fa-star"></i>
+            SolidWorks</li>
+          <li>
+						<i class="fa-li fa fa-star"></i>
+            MatLab</li>
+          <li>
+						<i class="fa-li fa fa-star"></i>
+            Simulink</li>
+          <li>
+						<i class="fa-li fa fa-star"></i>
+            AutoCAD</li>
+          <li>
+						<i class="fa-li fa fa-star"></i>
+            Machining</li>
+        </ul>
+			</div>
+
+      </div>
+    </section>
+
+		<!-- More -->
+		<section class="more-section p-3 p-lg-5 d-flex justify-content-center skillList" id="more">
+      <div class="w-100">
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">More</h2>
+
+			<div class="leftSide">
+				<div class="subheading mb-3"><h3>Current Courses</h3></div>
+        <ul class="fa-ul mb-0">
+					<li>
+						<i class="fa-li fa fa-star"></i>
+          	Advanced Control System</li>
+          <li>
+						<i class="fa-li fa fa-star"></i>
+          	Modeling and manufacturing</li>
+        </ul>
+			</div>
+
+				<div class="rightSide">
+				<div class="subheading mb-3"><h3>Interests</h3></div>
+        <ul class="fa-ul mb-0">
+          <li>
+						<i class="fa-li fa fa-star"></i>
+            Eat</li>
+          <li>
+						<i class="fa-li fa fa-star"></i>
+            Sleep</li>
+        </ul>
+			</div>
+
+      </div>
+    </section>
+
+
+	  <!-- Copyright Section -->
+	  <div class="copyright py-4 text-center">
+	    <div class="container">
+	      <small>Copyright &copy; Chikeng Dong 2020</small>
+	    </div>
+	  </div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</ html>
