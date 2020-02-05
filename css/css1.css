@@ -108,9 +108,17 @@ ul>li>i {
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
+.contentCentered {
+  width:80%;
+  margin: auto;
+}
 header {
   background: black;
 }
 section {
   padding-bottom: 20%;
+}
+.experienceDetails {
+  font-size: 130%;
+  padding: 1%;
 }

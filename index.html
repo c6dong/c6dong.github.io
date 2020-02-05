@@ -28,10 +28,10 @@
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#about">About</a></li>
-						<li><a href="#">Experience</a></li>
-						<li><a href="#">Education</a></li>
-						<li><a href="#">Skills</a></li>
-						<li><a href="#">More</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#education">Education</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#more">More</a></li>
 					</ul>
 				</div>
 			</div>
@@ -40,7 +40,7 @@
 	<section>
 		<div class="w-100 topOne" id="pageTop">
 			<h1 class="text-uppercase">Chikeng<span class="text-primary"> Dong</span></h1>
-			<div class="subheading mb-5">A smart boy majored in Mechanical Engineering
+			<div class="subheading mb-5">A Mechanical Engineering and Computer Science student at UC Berkeley<br>
 				<a href="mailto:name@email.com">c6dong@berkeley.edu</a>
 			</div>
 			<div class="social-icons">
@@ -57,88 +57,97 @@
 		<!-- about -->
 		<h2 id="about" class="page-section-heading text-center text-uppercase text-secondary mb-0">About</h2>
 		<div class="row">
-			<div class="col-lg-4 ml-auto">
-				<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-			</div>
-			<div class="col-lg-4 mr-auto">
-				<p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+			<div class="ml-auto">
+				<p class="leftSide" style="padding:5% 2%">Chikeng earned his bachelor’s degree in Mechanical Engineering at UC San Diego. He is currently a Master of Engineering student in Mechanical Engineering at UC Berkeley focusing on Control of Robotics and Autonomous Systems. He has extensive experience in project management and design. His previous work includes a nerve lengthening device, which collaborated with the medical department of UC San Diego for his senior project. In 2018, he participated in a robotic project at Tsinghua University focusing on computer vision and object detection using neural networks. Chikeng has good designing, manufacturing and simulating skills using computer software and machine shops. Outside of school, he enjoys movies, cooking, and soccer.</p>
+				<image src="images/set.jpg" class="rightSide"></image>
 			</div>
 		</div>
-
+		<hr class="m-0">
 		<!-- Experience -->
 		<section class="experience-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Experience</h2>
+        <h2 id="experience" class="page-section-heading text-center text-uppercase text-secondary mb-0">Experience</h2>
 
 				<!-- Experience 1 -->
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Medical Device Design Researcher</h3>
+            <h3 class="mb-0" style="color:#337ab7">Medical Device Design Researcher</h3>
 						<div class="resume-date text-md-right">
 	            <span class="text-primary">Sep. 2018 to Jun. 2019</span>
 	          </div>
             <div class="subheading mb-3">Mechanical Engineering Department, University of California, San Diego, CA</div>
-						<ul class="fa-ul mb-0">
-		          <li>
-								<i class="fa-li fa fa-check"></i>
-								Built a subcutaneously implanted wireless nerve lengthening device which can reconnect a damaged nerve that is taken apart by 2cm with the sponsor from UCSD medical school
-							</li>
-							<li>
-								<i class="fa-li fa fa-check"></i>
-								Designed and 3D printed the 100mm*32mm*14mm control system enclosure with biocompatible material to hold and protect TinyDuino boards
-							</li>
-							<li>
-								<i class="fa-li fa fa-check"></i>
-								Achieved mobile app control of nerve lengthening system within range of two meters by coding Bluetooth functions on Nordic Shield and testing signal transmission performance on a lab rabbit
-							</li>
-							<li>
-								<i class="fa-li fa fa-check"></i>
-								Evaluated and optimized the power consumption of the nerve lengthening system with 500mAh battery compacity by improving Arduino codes with the sleep mode and working-cycles to achieve two-weeks working life
-							</li>
+						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
+							<ul class="fa-ul mb-0">
+			          <li>
+									<i class="fa-li fa fa-check"></i>
+									Built a subcutaneously implanted wireless nerve lengthening device which can reconnect a damaged nerve that is taken apart by 2cm with the sponsor from UCSD medical school
+								</li>
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Designed and 3D printed the 100mm*32mm*14mm control system enclosure with biocompatible material to hold and protect TinyDuino boards
+								</li>
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Achieved mobile app control of nerve lengthening system within range of two meters by coding Bluetooth functions on Nordic Shield and testing signal transmission performance on a lab rabbit
+								</li>
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Evaluated and optimized the power consumption of the nerve lengthening system with 500mAh battery compacity by improving Arduino codes with the sleep mode and working-cycles to achieve two-weeks working life
+								</li>
+								<image src="images/Poster_Final.jpg" alt="project poster" class="contentCentered"></image><br>
+								<a href="files/presentation.pdf">
+									<p class="contentCentered linkToFiles" style="padding: 2%">Link to the final presentation</p>
+								</a>
+						</details>
           </div>
         </div>
+
 
 				<!-- Experience 2 -->
 				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div class="resume-content">
-						<h3 class="mb-0">Research Assistant</h3>
+						<h3 class="mb-0" style="color:#337ab7">Research Assistant</h3>
 						<div class="resume-date text-md-right">
 							<span class="text-primary">Jun. 2018 to Sep. 2018</span>
 						</div>
 						<div class="subheading mb-3">Intelligent Equipment and Robotics Laboratory, Tsinghua University, China</div>
-						<ul class="fa-ul mb-0">
-							<li>
-								<i class="fa-li fa fa-check"></i>
-								Collaborated with three PhD students to design and optimize an intelligent mobile robot, assembled with a UR5 robotic arm and an Intel RealSense Camera, to automatically identify and grab multi-type products in grocery stores
-							</li>
-							<li>
-								<i class="fa-li fa fa-check"></i>
-								Trained multiple neural network machine learning detection models with self-defined labelled pictures using Tensorflow framework, which aimed to be used on Nvidia Jetson TX2 module
-							</li>
-							<li>
-								<i class="fa-li fa fa-check"></i>
-								Won the third prize out of 300 teams in 2018 JD Robotics Challenge
-							</li>
+						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
+							<ul class="fa-ul mb-0">
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Collaborated with three PhD students to design and optimize an intelligent mobile robot, assembled with a UR5 robotic arm and an Intel RealSense Camera, to automatically identify and grab multi-type products in grocery stores
+								</li>
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Trained multiple neural network machine learning detection models with self-defined labelled pictures using Tensorflow framework, which aimed to be used on Nvidia Jetson TX2 module
+								</li>
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Won the third prize out of 300 teams in 2018 JD Robotics Challenge
+								</li>
+						</details>
 					</div>
 				</div>
 
 				<!-- Experience 3 -->
 				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div class="resume-content">
-						<h3 class="mb-0">Research Assistant</h3>
+						<h3 class="mb-0" style="color:#337ab7">Research Assistant</h3>
 						<div class="resume-date text-md-right">
 							<span class="text-primary">Apr. 2018 to Oct. 2018</span>
 						</div>
 						<div class="subheading mb-3">High Energy Density Physics Laboratory (HEDP), University of California, San Diego, CA</div>
-						<ul class="fa-ul mb-0">
-							<li>
-								<i class="fa-li fa fa-check"></i>
-								Examined basics and characteristics of plasma physics with application of Maxwell equations to better understand the results of high-speed particles collision
-							</li>
-							<li>
-								<i class="fa-li fa fa-check"></i>
-								Compiled and ran EPOCH laser-plasma code for 1D and 2D simulations with the same inputs and initial conditions as lab experiments and using the plots to compare and introduce hypothesis for unusual events
-							</li>
+						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
+							<ul class="fa-ul mb-0">
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Examined basics and characteristics of plasma physics with application of Maxwell equations to better understand the results of high-speed particles collision
+								</li>
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Compiled and ran EPOCH laser-plasma code for 1D and 2D simulations with the same inputs and initial conditions as lab experiments and using the plots to compare and introduce hypothesis for unusual events
+								</li>
+						</details>
 					</div>
 
 				</div>
@@ -146,20 +155,22 @@
 				<!-- Experience 4 -->
 				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div class="resume-content">
-						<h3 class="mb-0">Hardware & Design Engineer</h3>
+						<h3 class="mb-0" style="color:#337ab7">Hardware & Design Engineer</h3>
 						<div class="resume-date text-md-right">
 							<span class="text-primary">Apr. 2017 to Jun. 2017</span>
 						</div>
 						<div class="subheading mb-3">Mechanical Engineering Department, University of California, San Diego, CA</div>
-						<ul class="fa-ul mb-0">
-							<li>
-								<i class="fa-li fa fa-check"></i>
-								Collaborated with a team of four students on designing and building a remotely controlled robot with AutoCAD and Solidworks to transport billiards to the designated positions
-							</li>
-							<li>
-								<i class="fa-li fa fa-check"></i>
-								Conducted finite element analysis to test robot structure stability under stress; Fabricated parts using laser cutter, machine shop and 3D printer; Assembled and tested the robot
-							</li>
+						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
+							<ul class="fa-ul mb-0">
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Collaborated with a team of four students on designing and building a remotely controlled robot with AutoCAD and Solidworks to transport billiards to the designated positions
+								</li>
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Conducted finite element analysis to test robot structure stability under stress; Fabricated parts using laser cutter, machine shop and 3D printer; Assembled and tested the robot
+								</li>
+						</details>
 					</div>
 
 				</div>
@@ -167,16 +178,18 @@
 				<!-- Experience 5 -->
 				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div class="resume-content">
-						<h3 class="mb-0">Hardware & Control Engineer</h3>
+						<h3 class="mb-0" style="color:#337ab7">Hardware & Control Engineer</h3>
 						<div class="resume-date text-md-right">
 							<span class="text-primary">Sept. 2019 to Present</span>
 						</div>
 						<div class="subheading mb-3">Blue Goji, Austin, TX</div>
-						<ul class="fa-ul mb-0">
-							<li>
-								<i class="fa-li fa fa-check"></i>
-								Design and build a stationary bike with VR experience and active tethering system to achieve motion sensing and gamification according to the content of games
-							</li>
+						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
+							<ul class="fa-ul mb-0">
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Design and build a stationary bike with VR experience and active tethering system to achieve motion sensing and gamification according to the content of games
+								</li>
+						</details>
 					</div>
 
 				</div>
@@ -184,16 +197,18 @@
 				<!-- Experience 6 -->
 				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div class="resume-content">
-						<h3 class="mb-0">Technician Assistant</h3>
+						<h3 class="mb-0" style="color:#337ab7">Technician Assistant</h3>
 						<div class="resume-date text-md-right">
 							<span class="text-primary">May. 2018 to Jun. 2018</span>
 						</div>
 						<div class="subheading mb-3">Taikoo (Xiamen) Aircraft Engineering Co. Ltd, Xiamen, China</div>
-						<ul class="fa-ul mb-0">
-							<li>
-								<i class="fa-li fa fa-check"></i>
-								Investigated Design for Manufacturability in real working procedure by assisting a senior technician on a passengerto-freighter project, which requires manufacturing of aircraft components
-							</li>
+						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
+							<ul class="fa-ul mb-0">
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Investigated Design for Manufacturability in real working procedure by assisting a senior technician on a passengerto-freighter project, which requires manufacturing of aircraft components
+								</li>
+						</details>
 					</div>
 
 				</div>
@@ -207,7 +222,7 @@
 		<!-- Education -->
 		<section class="education-section p-3 p-lg-5 d-flex align-items-center" id="education">
 			<div class="w-100">
-				<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Education</h2>
+				<h2 id = "education"class="page-section-heading text-center text-uppercase text-secondary mb-0">Education</h2>
 
 				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div class="resume-content">
@@ -241,7 +256,7 @@
 		<!-- Skills -->
     <section class="skills-section p-3 p-lg-5 d-flex justify-content-center skillList" id="skills">
       <div class="w-100">
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
+        <h2 id="skills"class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
 
 			<div class="leftSide">
 				<div class="subheading mb-3"><h3>Programming Skills</h3></div>
@@ -293,7 +308,7 @@
 
       </div>
     </section>
-
+		<hr class="m-0">
 		<!-- More -->
 		<section class="more-section p-3 p-lg-5 d-flex justify-content-center skillList" id="more">
       <div class="w-100">
@@ -303,11 +318,17 @@
 				<div class="subheading mb-3"><h3>Current Courses</h3></div>
         <ul class="fa-ul mb-0">
 					<li>
-						<i class="fa-li fa fa-star"></i>
+						<i class="fa-li fa fa-blender"></i>
           	Advanced Control System</li>
           <li>
-						<i class="fa-li fa fa-star"></i>
+						<i class="fa-li fa fa-blender"></i>
           	Modeling and manufacturing</li>
+					<li>
+						<i class="fa-li fa fa-blender"></i>
+          	Node.js</li>
+					<li>
+						<i class="fa-li fa fa-blender"></i>
+          	MySQL</li>
         </ul>
 			</div>
 
@@ -315,11 +336,11 @@
 				<div class="subheading mb-3"><h3>Interests</h3></div>
         <ul class="fa-ul mb-0">
           <li>
-						<i class="fa-li fa fa-star"></i>
-            Eat</li>
+						<i class="fa-li fa fa-blender"></i>
+            Soccer</li>
           <li>
-						<i class="fa-li fa fa-star"></i>
-            Sleep</li>
+						<i class="fa-li fa fa-blender"></i>
+            Cooking</li>
         </ul>
 			</div>
 
