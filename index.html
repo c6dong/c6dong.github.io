@@ -55,14 +55,15 @@
 
 
 		<!-- about -->
-		<h2 id="about" class="page-section-heading text-center text-uppercase text-secondary mb-0">About</h2>
+		<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">About</h2>
 		<div class="row">
 			<div class="ml-auto">
-				<p class="leftSide" style="padding:5% 2%">Chikeng earned his bachelor’s degree in Mechanical Engineering at UC San Diego. He is currently a Master of Engineering student in Mechanical Engineering at UC Berkeley focusing on Control of Robotics and Autonomous Systems. He has extensive experience in project management and design. His previous work includes a nerve lengthening device, which collaborated with the medical department of UC San Diego for his senior project. In 2018, he participated in a robotic project at Tsinghua University focusing on computer vision and object detection using neural networks. Chikeng has good designing, manufacturing and simulating skills using computer software and machine shops. Outside of school, he enjoys movies, cooking, and soccer.</p>
-				<image src="images/set.jpg" class="rightSide"></image>
+				<p class="leftSide about" style="padding:5% 2%">Chikeng earned his bachelor’s degree in Mechanical Engineering at UC San Diego. He is currently a Master of Engineering student in Mechanical Engineering at UC Berkeley focusing on Control of Robotics and Autonomous Systems. He has extensive experience in project management and design. His previous work includes a nerve lengthening device, which collaborated with the medical department of UC San Diego for his senior project. In 2018, he participated in a robotic project at Tsinghua University focusing on computer vision and object detection using neural networks. Chikeng has good designing, manufacturing and simulating skills using computer software and machine shops. Outside of school, he enjoys movies, cooking, and soccer.</p>
+				<image id="head" src="images/me.jpg" class="rightSide about" style="max-width: 400px"></image>
 			</div>
 		</div>
 		<hr class="m-0">
+
 		<!-- Experience -->
 		<section class="experience-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
@@ -75,7 +76,7 @@
 						<div class="resume-date text-md-right">
 	            <span class="text-primary">Sep. 2018 to Jun. 2019</span>
 	          </div>
-            <div class="subheading mb-3">Mechanical Engineering Department, University of California, San Diego, CA</div>
+            <div class="subheading mb-3 resume-subheading">Mechanical Engineering Department, University of California, San Diego, CA</div>
 						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
 							<ul class="fa-ul mb-0">
 			          <li>
@@ -110,7 +111,7 @@
 						<div class="resume-date text-md-right">
 							<span class="text-primary">Jun. 2018 to Sep. 2018</span>
 						</div>
-						<div class="subheading mb-3">Intelligent Equipment and Robotics Laboratory, Tsinghua University, China</div>
+						<div class="subheading mb-3 resume-subheading">Intelligent Equipment and Robotics Laboratory, Tsinghua University, China</div>
 						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
 							<ul class="fa-ul mb-0">
 								<li>
@@ -125,6 +126,10 @@
 									<i class="fa-li fa fa-check"></i>
 									Won the third prize out of 300 teams in 2018 JD Robotics Challenge
 								</li>
+							<image src="images/groceries.jpg" alt="groceries" class="contentCentered"></image><br>
+								<p class="contentCentered">Target Groceries to be sorted</p>
+							<image src="images/trainPhoto.png" alt="train photo" class="contentCentered"></image><br>
+								<p class="contentCentered">Tagged photo from training set</p>
 						</details>
 					</div>
 				</div>
@@ -136,7 +141,7 @@
 						<div class="resume-date text-md-right">
 							<span class="text-primary">Apr. 2018 to Oct. 2018</span>
 						</div>
-						<div class="subheading mb-3">High Energy Density Physics Laboratory (HEDP), University of California, San Diego, CA</div>
+						<div class="subheading mb-3 resume-subheading">High Energy Density Physics Laboratory (HEDP), University of California, San Diego, CA</div>
 						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
 							<ul class="fa-ul mb-0">
 								<li>
@@ -147,9 +152,12 @@
 									<i class="fa-li fa fa-check"></i>
 									Compiled and ran EPOCH laser-plasma code for 1D and 2D simulations with the same inputs and initial conditions as lab experiments and using the plots to compare and introduce hypothesis for unusual events
 								</li>
+								<image src="images/beforeCollison.jpg" alt="Carbon desity before" class="contentCentered"></image><br>
+									<p class="contentCentered">Carbon Density Distribution before collision</p>
+								<image src="images/afterCollison.jpg" alt="Carbon desity after" class="contentCentered"></image><br>
+									<p class="contentCentered">Carbon Density Distribution after collision</p>
 						</details>
 					</div>
-
 				</div>
 
 				<!-- Experience 4 -->
@@ -159,7 +167,7 @@
 						<div class="resume-date text-md-right">
 							<span class="text-primary">Apr. 2017 to Jun. 2017</span>
 						</div>
-						<div class="subheading mb-3">Mechanical Engineering Department, University of California, San Diego, CA</div>
+						<div class="subheading mb-3 resume-subheading">Mechanical Engineering Department, University of California, San Diego, CA</div>
 						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
 							<ul class="fa-ul mb-0">
 								<li>
@@ -170,52 +178,88 @@
 									<i class="fa-li fa fa-check"></i>
 									Conducted finite element analysis to test robot structure stability under stress; Fabricated parts using laser cutter, machine shop and 3D printer; Assembled and tested the robot
 								</li>
+								<image src="images/mae3Robot.gif" alt="robot" class="contentCentered"></image><br>
+									<p class="contentCentered">Robot in test</p>
 						</details>
 					</div>
-
 				</div>
 
 				<!-- Experience 5 -->
-				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-					<div class="resume-content">
-						<h3 class="mb-0" style="color:#337ab7">Hardware & Control Engineer</h3>
-						<div class="resume-date text-md-right">
-							<span class="text-primary">Sept. 2019 to Present</span>
-						</div>
-						<div class="subheading mb-3">Blue Goji, Austin, TX</div>
-						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
-							<ul class="fa-ul mb-0">
-								<li>
-									<i class="fa-li fa fa-check"></i>
-									Design and build a stationary bike with VR experience and active tethering system to achieve motion sensing and gamification according to the content of games
-								</li>
-						</details>
-					</div>
-
-				</div>
-
-				<!-- Experience 6 -->
 				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div class="resume-content">
 						<h3 class="mb-0" style="color:#337ab7">Technician Assistant</h3>
 						<div class="resume-date text-md-right">
 							<span class="text-primary">May. 2018 to Jun. 2018</span>
 						</div>
-						<div class="subheading mb-3">Taikoo (Xiamen) Aircraft Engineering Co. Ltd, Xiamen, China</div>
+						<div class="subheading mb-3 resume-subheading">Taikoo (Xiamen) Aircraft Engineering Co. Ltd, Xiamen, China</div>
 						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
 							<ul class="fa-ul mb-0">
 								<li>
 									<i class="fa-li fa fa-check"></i>
 									Investigated Design for Manufacturability in real working procedure by assisting a senior technician on a passengerto-freighter project, which requires manufacturing of aircraft components
 								</li>
+								<image src="images/projecting757.jpg" alt="757 project" class="contentCentered"></image><br>
+									<p class="contentCentered">Boeing 757 <br> under conversion from passenger to freighter</p>
+								<image src="images/insidePlane.jpg" alt="interior of plane" class="contentCentered"></image><br>
+									<p class="contentCentered">Interior of the plane</p>
 						</details>
 					</div>
-
 				</div>
 
 			</div>
 
     </section>
+
+		<hr class="m-0">
+
+		<!-- Ongoing Projects -->
+		<section class="ongoing-section p-3 p-lg-5 d-flex align-items-center" id="education">
+			<div class="w-100">
+				<h2 id = "ongoing" class="page-section-heading text-center text-uppercase text-secondary mb-0">Ongoing Projects</h2>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0" style="color:#337ab7">Hardware & Control Engineer</h3>
+						<div class="resume-date text-md-right">
+							<span class="text-primary">Sept. 2019 to Present</span>
+						</div>
+						<div class="subheading mb-3 resume-subheading">Blue Goji, Austin, TX</div>
+						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
+							<ul class="fa-ul mb-0">
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Design and build a stationary bike with VR experience and active tethering system to achieve motion sensing and gamification according to the content of games
+								</li>
+								<image src="images/bikeConcept.jpg" alt="bike" class="contentCentered"></image><br>
+									<p class="contentCentered">Bike concept</p>
+						</details>
+					</div>
+				</div>
+
+				<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="resume-content">
+						<h3 class="mb-0" style="color:#337ab7">Independent developer</h3>
+						<div class="resume-date text-md-right">
+							<span class="text-primary">Jan. 2020 to Present</span>
+						</div>
+						<div class="subheading mb-3 resume-subheading">Mini blog</div>
+						<details close class="experienceDetails"><summary>View Details and Pictures</summary>
+							<ul class="fa-ul mb-0">
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Developing a web server blog with Node.js under different frames (Express and Koa2)
+								</li>
+								<li>
+									<i class="fa-li fa fa-check"></i>
+									Designing an website interface which allows users post, update, and delete blogs easily
+								</li>
+						</details>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
 
 		<hr class="m-0">
 
@@ -275,7 +319,7 @@
             JavaScript</li>
           <li>
 						<i class="fa-li fa fa-star"></i>
-            react</li>
+            MySQL</li>
           <li>
 						<i class="fa-li fa fa-star"></i>
             node.js</li>
@@ -303,6 +347,9 @@
           <li>
 						<i class="fa-li fa fa-star"></i>
             Machining</li>
+					<li>
+						<i class="fa-li fa fa-star"></i>
+            Prototyping</li>
         </ul>
 			</div>
 
@@ -350,7 +397,7 @@
 
 	  <!-- Copyright Section -->
 	  <div class="copyright py-4 text-center">
-	    <div class="container">
+	    <div class="container footer">
 	      <small>Copyright &copy; Chikeng Dong 2020</small>
 	    </div>
 	  </div>
