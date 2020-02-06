@@ -11,9 +11,6 @@
   --breakpoint-xl: 1200px;
 }
 
-* {
-  border: black solid 1px;
-}
 
 html {
   font-family: sans-serif;
