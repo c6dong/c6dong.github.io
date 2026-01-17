@@ -46,7 +46,7 @@ h1  {
   font-size: 300%;
 }
 h2 {
-  padding-top: 20%;
+  padding-top: 5%;
   padding-bottom: 5%;
   font-weight: bold;
   color: #337ab7;
@@ -71,7 +71,7 @@ nav {
 .topOne {
   text-align: center;
   padding-top: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 8%;
 }
 .icon-bar {
   background: white;
@@ -130,8 +130,11 @@ section {
   margin-top: 20%;
 }
 .experienceDetails {
-  font-size: 130%;
+  font-size: 100%;
   padding: 1%;
+}
+.experienceDetails:open {
+  background-color: rgb(241, 241, 241);
 }
 .experience {
   padding: 50% 0%;
@@ -139,7 +142,35 @@ section {
 li {
   padding: 10px 0;
 }
+.view_details {
+  font-size: 110%;
+  font-weight: bold;
+  color:#3d4455;
+  padding: 2px 6px;          /* space inside background */
+  display: inline-block;      /* shrink to text width instead of full row */
+}
+.view_details:hover {
+  background-color: #e9e8e8;  /* background around text */
 
+  cursor: pointer;
+}
+.caption {
+  font-size: 85%;
+  color:#3d4455;
+  font-weight: bold;
+}
+
+.first_li {
+  list-style-type:disc;
+  padding: 0;
+  padding-left: 2%;
+}
+
+.second_li {
+  list-style-type:circle;
+  padding: 0;
+  padding-left: 6%;
+}
 @media screen and (max-width: 600px) {
   .about {
     display: block;
